@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+#title{
+    height: 5rem;
+    line-height: 5rem;
+    background-color: black;
+    font-size: 2.2rem;
+}
+
+.choices-div{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.choice{
+    height: 110px;
+    width: 110px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    background-color: black;
+    cursor: pointer;
+
+
+
+}
+
+p{
+    color: black;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 3rem;
+}
+
+#playerScore, #computerScore{
+    font-size: 3rem;
+}
+
+.message-container{
+    margin-top: 30px;
+}
+
+#mc-text{
+    background-color: black;
+    color: white;
+    display: inline;
+    font-size: 2.5rem;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+
+/* .move-message{
+    background-color: green;
+    margin-top: 35px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+#mm-text{
+    color: white;
+    
+} */
+
